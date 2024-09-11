@@ -13,7 +13,7 @@ on:
         type: string
       decrypted_youtube_url:
         description: "Direct URL to the decrypted YouTube ipa. The version of YouTube will be detected automatically."
-        default: ""
+        default: "https://crystall1ne.dev/cdn/youtube.ipa"
         required: true
         type: string
       bundle_id:
@@ -33,7 +33,7 @@ on:
         type: boolean
       upload_artifact:
         description: "Upload Artifact"
-        default: false
+        default: true
         required: false
         type: boolean
 
